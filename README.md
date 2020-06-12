@@ -1,9 +1,15 @@
-# Welcome to StackEdit!
+# Welcome to K8 command notebook!
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+All the usefull commands which can be refered
 
+```sh
+kubectl get namespaces
+```
 
-# Files
+```sh
+kubectl get roles --all-namespaces
+```
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
-
+```sh
+kubectl get serviceaccounts --all-namespaces
+```
